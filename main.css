@@ -1,3 +1,103 @@
+ *{
+    font-family: 'Inconsolata', monospace;
+ }
 body {
-    background-color: aquamarine;
+    background-color: #2F4858;
 }
+.main-content{
+    margin: 0px auto;
+    padding: 50px;
+}
+.home{
+width: 100%;  
+height: 500px; 
+}
+.nav-bar-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.nav-bar-list li{
+    display: inline;
+    padding: 10px;
+    color: #64FFDA;
+}
+.nav-bar{
+    border-bottom: 1px solid #64FFDA;
+    padding: 5px;
+}
+ .centered img{
+    float: right;
+    width: 100%;
+    padding-top: 75px 15px;
+    border-radius: 8px;
+    border: 2px solid #64FFDA; 
+ }
+
+.split {
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+mark.yellow {
+    color: #DBDCA9;
+    background: none;
+}  
+.main-title{
+    color: #64FFDA;
+    font-size: large;
+    margin-bottom: 3px;
+}
+.sub-title{
+    margin-top: 3px;
+    color: #64FFDA;
+    margin-left: 15px;
+}
+.about-image{
+    width: 100%;
+}
+.a-image-one{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 2px solid #64FFDA;
+}
+.about-me{
+    width: 100%;  
+    height: 500px; 
+}
+.headings-main{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+

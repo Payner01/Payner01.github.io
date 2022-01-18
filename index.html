@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <title>Bryce Payne's Portfolio</title>
     <link rel="stylesheet" href="main.css"/>
 </head> 
@@ -11,67 +12,102 @@
     <header>
         <nav class="nav-bar">
             <a href=""></a>
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+            <div class="nav-bar-list">
+                <ul>
+                    <li>Home</li>    
+                    <li>About Me</li>    
+                    <li>Projects</li>   
+                    <li>Contact</li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="main-content">
         <section class="home">
-            <img src="https://imgur.com/XwiW84Y.jpg" alt="Self portrait of me!">
-            <h1 class="main-title">print(' Hello, my name is Bryce Payne</h1>
-            <h2 class="sub-title">I am a Web Developer / Videographer ')</h2>
-            <h3 class="side-email">bryce.payne.97@gmail.com</h3>
+            <div class="split right">
+                <div class="centered">
+                    <img src="./images/IMG_6604.jpg" alt="Self portrait of me!">
+                </div>
+            </div>
+            <div class="split left">
+                <div class="centered">
+                    <p class="main-title"><mark class="yellow">print</mark>('Hello, my name is Bryce Payne</p>
+                    <p class="sub-title">I am a Web Developer / Videographer ')</p>
+                </div>
+            </div>
         </section>
         <section class="about-me">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <h2 class="headings">About Me</h2>
-            <h4 class="small-number"></h4>
-            <p>Hello, my name is Bryce Payne. I am a Highly organized, detail-oriented, motivated, and creative individual that is always ready to learn new things and take on the next new task. 
-                Knowledge in social media marketing and content. Proficient in cameras, computers, and technology in general. I am currently studying to become a full time web developer at devCodeCamp. 
-                Some of my hobbies include: cars, the lake, filming, and of course coding.</p>
+            <div class="split right">
+                <div class="headings-main">
+                    <h2 class="headings">About Me</h2>
+                        <div class="about-para">
+                            <p class="para">Hello, my name is Bryce Payne. I am a Highly organized, detail-oriented, motivated, and creative individual that is always ready to learn new things and take on the next new task. 
+                            Knowledge in social media marketing and content. Proficient in cameras, computers, and technology in general. I am currently studying to become a full time web developer at devCodeCamp. 
+                            Some of my hobbies include: cars, the lake, filming, and of course coding.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="split left">
+                 <div class="about-image">
+                    <img class="a-image-one" src="/images/IMG_4692.JPG" alt="Picture of my car (2013 camaro)">
+                </div>
+            </div>
         </section>
         <section class="projects">
-            <h2 class="headings">Projects</h2>
-            <h4 class="small-number">.03</h4>
-            <ul class="projects-grid">
-                <li class="project-one">
-                    <img src="" alt=""> <!--image of code in repo-->
-                    <h3>('Robots_vs_Dinosaurs')</h3> <!--Title-->
-                    <button class="view-button" type="button">View</button>
-                </li>
-                <li class="project-one">
-                    <img src="" alt=""> <!--image of code in repo-->
-                    <h3>('Robots_vs_Dinosaurs')</h3> <!--Title-->
-                    <button class="view-button" type="button">View</button>
-                </li>
-                <li class="project-one">
-                    <img src="" alt=""> <!--image of code in repo-->
-                    <h3>('Robots_vs_Dinosaurs')</h3> <!--Title-->
-                    <button class="view-button" type="button">View</button>
-                </li>
-                <li class="project-one">
-                    <img src="" alt=""> <!--image of code in repo-->
-                    <h3>('Robots_vs_Dinosaurs')</h3> <!--Title-->
-                    <button class="view-button" type="button">View</button>
-                </li>
-            </ul>
+            <div class="projects-page">
+                <div class="headings-main">
+                    <h2 class="headings">Projects</h2>
+                </div>
+                <div class="projects-grid-colums">
+                    <ul class="projects-grid">
+                        <div class="project">
+                            <li>
+                                <div class="project-one-image">
+                                    <img src="" alt=""><!--image of code in repo-->
+                                </div> 
+                                <h3 class="projects-title">('Robots_vs_Dinosaurs')</h3>
+                                <button class="view-button" type="button">View</button>
+                            </li>
+                            <li>
+                                <div class="project-two-image">
+                                    <img src="" alt=""><!--image of code in repo-->
+                                </div> 
+                                <h3 class="projects-title">('R_P_S_L_S')</h3> 
+                                <button class="view-button" type="button">View</button>
+                            </li>
+                            <li>
+                                <div class="project-three-image">
+                                    <img src="" alt=""><!--image of code in repo-->
+                                </div> 
+                                <h3 class="projects-title">('Robots_vs_Dinosaurs')</h3> 
+                                <button class="view-button" type="button">View</button>
+                            </li>
+                            <li>
+                                <div class="project-four-image">
+                                    <img src="" alt=""><!--image of code in repo-->
+                                </div> 
+                                <h3 class="projects-title">('Robots_vs_Dinosaurs')</h3> 
+                                <button class="view-button" type="button">View</button>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="contact">
-            <h2 class="headings">Contact</h2>
-            <h4 class="small-number">.04</h4>
-            <p>Feel free to contact me via email, or connect with me on my socials through the links below</p>
-            <button class="contact-button">Email</button>
+            <div class="contact-page">
+                <div class="headings-main">
+                    <h2 class="headings">Contact</h2>
+                </div>
+                <div class="contact-para">
+                    <p class="para">Feel free to contact me via email, or connect with me on my socials through the links below</p>
+                </div>
+                <button class="contact-button">Email</button>
+            </div>
         </section>
-
     </main>
-    <footer></footer>
-    
+    <footer>
+        <p>@brycepayne2022</p>
+    </footer>
 </body>
 </html>
