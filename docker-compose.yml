@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: portfoliowebsite
+    image: brycepayne/portfoliowebsite:latest
+    ports:
+      - '80:80'
