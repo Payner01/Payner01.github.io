@@ -7,23 +7,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <title>Bryce Payne's Portfolio</title>
     <link rel="stylesheet" href="main.css"/>
-</head>
+</head> 
 <body>
     <header>
         <nav class="nav-bar">
             <a href=""></a>
             <div class="nav-bar-list">
                 <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href="#home">Home</a></li>    
+                    <li><a href="#about">About Me</a></li>    
+                    <li><a href="#projects">Projects</a></li>   
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <button class="contact-button">Tech Resume</button>
+                    <button class="contact-button">Resume</button> -->
                 </ul>
             </div>
         </nav>
     </header>
     <main class="main-content">
-        <section class="home">
+        <section id="home" class="home">
             <div class="split right">
                 <div class="centered">
                     <img src="./images/IMG_6604.jpg" alt="Self portrait of me!">
@@ -32,28 +34,28 @@
             <div class="split left">
                 <div class="centered">
                     <p class="main-title"><mark class="yellow">print</mark>('Hello, my name is Bryce Payne</p>
-                    <p class="sub-title">I am a Web Developer / Videographer ')</p>
+                    <p class="sub-title">I am a Web Developer')</p>
                 </div>
             </div>
         </section>
-        <section class="about-me">
+        <section id="about" class="about-me">
             <div class="split right">
                 <div class="headings-main">
                     <h2 class="headings">About Me</h2>
                         <div class="about-para">
-                            <p class="para">Hello, I am a Highly organized, detail-oriented, motivated, and creative individual that is always ready to learn new things and take on the next new task.
-                            Knowledge in social media marketing and content. Proficient in cameras, computers, and technology in general. I am currently studying to become a full time web developer at devCodeCamp.
-                            When im not coding or working you can find me working on my car.</p>
+                            <p class="para">Hello, I am a Highly organized, detail-oriented, motivated, and creative individual that is always ready to learn new things and take on the next new task. 
+                            I have knowledge in social media marketing and content distribution. I would say cameras, computers, and technology in general are my forte. I am a recent graduate of devCodeCamp's Full Stack Web Development Course. 
+                            When im not coding or working you can find me working on my car! 😎 </p>
                     </div>
                 </div>
             </div>
             <div class="split left">
                  <div class="about-image">
-                    <img class="a-image-one" src="/images/IMG_4692.JPG" alt="Picture of my car (2013 camaro)">
+                    <img class="a-image-one" src="./images/IMG_4692.JPG" alt="Picture of my car (2013 camaro)">
                 </div>
             </div>
         </section>
-        <section class="projects-section">
+        <section id="projects" class="projects-section">
             <div class="projects-page">
                 <div class="headings-main">
                     <h2 class="headings">Projects</h2>
@@ -63,57 +65,49 @@
                         <div class="projects">
                             <li class="project-column">
                                 <div class="project-card">
-                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
+                                    <a href="https://github.com/Payner01/dcc-capstone">
+                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt=""><!--image of code in repo-->
                                     <div class="container">
-                                        <h1 class="projects-title">('Robots_vs_Dinosaurs')</h1>
-                                    </div>
-                                </div>
+                                        <h1 class="projects-title">("Capstone: Couch_Buddy")</h1>
+                                        <p>CouchBuddy is a movie library application that allows a user to
+                                             search for movies through IMDb API and view information / details about that movie. </p>
+                                    </div></a>
+                                </div> 
                             </li>
                             <li class="project-column">
                                 <div class="project-card">
-                                    <img class="proj-image" src="/images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
+                                    <a href="https://github.com/Payner01/youtube-clone-frontend">
+                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt=""><!--image of code in repo-->
                                     <div class="container">
-                                        <h1 class="projects-title">('R_P_S_L_S')</h1>
-                                    </div>
-                                </div>
+                                        <h1 class="projects-title">("Youtube_Clone")</h1>
+                                        <p>A YouTube clone where users can search any video and select any 
+                                            videos of their choice via YouTube API. </p>
+                                    </div></a>
+                                </div> 
                             </li>
                             <li class="project-column">
                                 <div class="project-card">
-                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
+                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt=""><!--image of code in repo-->
                                     <div class="container">
-                                        <h1 class="projects-title">('Day_Trip_Generator')</h1>
+                                        <h1 class="projects-title">("Camaro_Cab")</h1>
+                                        <p>Coming Soon...</p>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="project-column">
+                                </div> 
+                            </li><li class="project-column">
                                 <div class="project-card">
-                                    <img class="proj-image" src="/images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
+                                    <img class="proj-image" src="./images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt=""><!--image of code in repo-->
                                     <div class="container">
-                                        <h1 class="projects-title">coming soon.</h1>
+                                        <h1 class="projects-title">Coming Soon</h1>
                                     </div>
-                                </div>
+                                </div> 
                             </li>
-                            <li class="project-column">
-                                <div class="project-card">
-                                    <img class="proj-image" src="/images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
-                                    <div class="container">
-                                        <h1 class="projects-title">coming soon.</h1>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="project-column">
-                                <div class="project-card">
-                                    <img class="proj-image" src="/images/Screen Shot 2022-01-18 at 6.32.17 PM.png" alt="Picture of github Repo">
-                                        <h1 class="projects-title">coming soon.</h1>
-                                    </div>
-                                </div>
-                            </li>
+                            
                         </div>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="contact-page">
                 <div class="headings-main">
                     <h2 class="headings">Contact</h2>
