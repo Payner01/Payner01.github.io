@@ -82,7 +82,7 @@ mark.yellow {
     margin-left: 15px;
 }
 .a-image-one{
-    width: 75%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -91,7 +91,11 @@ mark.yellow {
 }
 .about-me{
     width: 100%;  
-    height: 750px; 
+    height: 850px; 
+}
+.about-image{
+    display: flex;
+    
 }
 .headings-main{
     width: 100%;
